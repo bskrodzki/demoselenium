@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.log
+*.pot
+*.pyd
+*.pyo
+*.so
+
+# Virtualenv
+.venv/
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Selenium/tests
+/reports/
+/screenshots/
+*.png
+*.html
+*.json
+
+# WebDrivers (lepiej używać webdriver-manager)
+chromedriver*
+geckodriver*
+msedgedriver*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+secrets.ini
